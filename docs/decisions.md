@@ -30,10 +30,17 @@ Utilizar **Docker e Docker Compose** para orquestração.
 **Status:** Aceito
 
 ### Contexto
-O jogo exige sincronismo entre a tela da TV e os celulares dos jogadores.
+O jogo exige sincronismo em tempo real entre a tela principal (TV) e os dispositivos individuais (Mobile). Ações como gasto de PI, revelação de pistas e uso de poderes devem ser refletidas instantaneamente.
 
 ### Decisão
-- Utilizar **Django Channels** com **Redis** como camada de canais.
-- Servidor ASGI **Daphne** para gerenciar o tráfego de WebSockets em conjunto com o tráfego HTTP do DRF.
+Utilizar **Django Channels** com **Redis** como Channel Layer.
+- Implementação de `ProtocolTypeRouter` no `asgi.py`.
+- Uso de `AuthMiddlewareStack` para autenticação de sockets.
+- Servidor ASGI **Daphne** para gerenciar o tráfego.
+
+### Consequências
+- Baixa latência nas atualizações da TV.
+- Complexidade adicional no gerenciamento de conexões e grupos (rooms).
+- Dependência do Redis como infraestrutura crítica para o gameplay.
 
 ---

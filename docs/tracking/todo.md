@@ -8,7 +8,7 @@ Este arquivo rastreia o progresso das funcionalidades e tarefas do projeto.
 - [x] Configuração inicial do repositório (Backend & Frontend)
 - [x] Dockerização do ambiente (Django, React, Postgres, Redis)
 - [x] Definição de Arquitetura e Guia de Desenvolvimento
-- [ ] Configuração do Django Channels para WebSockets
+- [x] Configuração do Django Channels para WebSockets
 
 ## 🏠 2. Lobby & Gestão de Partida
 - [ ] Criação de Salas (UUID)
@@ -49,4 +49,4 @@ Este arquivo rastreia o progresso das funcionalidades e tarefas do projeto.
 
 ---
 
-**Última atualização:** 2026-04-27 19:05
+**Última atualização:** 2026-04-27 19:10
