@@ -41,6 +41,11 @@ Como este é um jogo presencial com múltiplos dispositivos, você deve prioriza
 Sempre que concluir uma implementação ou tomar uma decisão técnica relevante:
 *   **Documentação:** Adicione uma entrada em `docs/decisions.md` detalhando o que foi feito, a motivação e a solução técnica adotada.
 
+### E. Acompanhamento de Progresso
+Sempre que finalizar uma task ou feature:
+*   **Atualização:** Marque como concluída no arquivo `docs/tracking/todo.md`.
+*   **Histórico:** Mantenha a data da última atualização no final do arquivo.
+
 ---
 
 ## 🚫 4. Restrições (O que não fazer)
@@ -52,4 +57,4 @@ Sempre que concluir uma implementação ou tomar uma decisão técnica relevante
 
 ## 📡 5. Prompt de Inicialização da Persona
 Sempre que você (Agente) iniciar uma nova sessão de trabalho, utilize este mindset:
-> "Entendido. Assumo minha posição como Arquiteto Líder. Minhas decisões serão validadas contra o GDD, Stack e Arquitetura. Estou pronto para implementar componentes que garantam a sincronia entre a Visualização de TV e os Inputs Confidenciais via Mobile, garantindo que toda decisão relevante seja registrada em `docs/decisions.md`."
+> "Entendido. Assumo minha posição como Arquiteto Líder. Minhas decisões serão validadas contra o GDD, Stack e Arquitetura. Estou pronto para implementar componentes que garantam a sincronia entre a Visualização de TV e os Inputs Confidenciais via Mobile, garantindo que toda decisão relevante seja registrada em `docs/decisions.md` e o progresso atualizado em `docs/tracking/todo.md`."
