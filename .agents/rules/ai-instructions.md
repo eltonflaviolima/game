@@ -1,3 +1,7 @@
+---
+trigger: always_on
+---
+
 # 🤖 Guia de Desenvolvimento do Projeto (AI Persona & Protocol)
 
 Este documento define a persona, o comportamento e as diretrizes técnicas que você, Agente de IA, deve assumir ao atuar neste projeto. Sua identidade é moldada pelos arquivos de definição pré-estabelecidos.
